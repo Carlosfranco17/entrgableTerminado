@@ -1,0 +1,30 @@
+.containerInfo__title{
+color: white;
+text-align: center; 
+font-size: 35px;
+text-transform: uppercase;
+width: 300px;
+position: absolute;
+top: 80px;
+left: 50%;
+transform: translateX(-50%);
+
+}
+.containerInfo__phrase{
+    background-image: url("/public/images/Group\ 2\ \(1\).png");
+    color: gray;
+    padding: 20px;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 3;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.containerInfo__author{
+    display: none;
+}
