@@ -8,6 +8,7 @@
     margin: 0 auto;
     margin-top: 30px;
     cursor: pointer;
-    color:gray;
+    color:rgb(61, 61, 61);
     transition: background 200ms ease;
+    box-shadow: 5px 5px 9px black;
 }

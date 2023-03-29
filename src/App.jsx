@@ -14,14 +14,14 @@ function App() {
   };
   const [quoete, setQuoete] = useState(aleatoria(db));
 
-  function CambiarFrase(){
+  function randomphrase(){
   setQuoete(aleatoria(db))
   }
 
   return (
     <div className={`App ${aleatoria(imagenes)}`}>
      
-  <ContainerInfo quoete={quoete} CambiarFrase={CambiarFrase} />
+  <ContainerInfo quoete={quoete} randomphrase={randomphrase} />
     </div>
   );
 }

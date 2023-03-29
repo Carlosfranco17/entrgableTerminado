@@ -2,10 +2,10 @@ import React from "react";
 import Button from "./Button";
 import "../style/ContainerInfo.css";
 
-const ContainerInfo = ({ quoete, CambiarFrase }) => {
+const ContainerInfo = ({ quoete, randomphrase }) => {
   return (
     <section className="containerInfo">
-      <h1 className="containerInfo__title">Galletas de la fortuna</h1>
+      <h1 className="containerInfo__title">Consejos millonarios</h1>
 
       <article className="containerInfo__phrase">
         <p>{quoete.phrase}</p>
@@ -14,7 +14,7 @@ const ContainerInfo = ({ quoete, CambiarFrase }) => {
         <h4>fuente: {quoete.author}</h4>
       </article>
 
-      <Button CambiarFrase={CambiarFrase} />
+      <Button randomphrase={randomphrase} />
     </section>
   );
 };

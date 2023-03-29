@@ -1,10 +1,10 @@
 import React from 'react'
 import "../style/Button.css"
 
-const Button = ({CambiarFrase}) => {
+const Button = ({randomphrase}) => {
   return (
     
-<button className='button' onClick={CambiarFrase}>Probas mi suerte</button>
+<button className='button' onClick={randomphrase}>Probas mi suerte</button>
 
   )
 }
